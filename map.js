@@ -1,7 +1,7 @@
 // Step 1: initialize the HERE map platform
 // IMPORTANT: Replace the apikey with your own from developer.here.com
 var platform = new H.service.Platform({
-    apikey: 'KUFJZlg1QpKnIqlMlodmDXeu7nNktr2-caRXFHpxgSI'
+    apikey: '2ITw12WWsHyI1nQEVyxMslmxvABZyXlrmxAUJdK3DkI'
   });
   var defaultLayers = platform.createDefaultLayers();
   
