@@ -22,3 +22,8 @@ var platform = new H.service.Platform({
   
   // Step 6: Create the default UI components (e.g., zoom buttons)
   var ui = H.ui.UI.createDefault(map, defaultLayers);
+  // adjust tilt and rotation of the map
+
+  map.getViewModel().setLookAtData({
+        tilt: 60
+    });
