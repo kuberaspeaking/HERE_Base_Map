@@ -9,7 +9,7 @@ var platform = new H.service.Platform({
   // This map is centered on New York, using the default map style
   var map = new H.Map(document.getElementById('map'),
     defaultLayers.vector.normal.map, {
-    center: {lat: 19.0191765, lng: 72.8277937};,
+    center: {lat: 19.0191765, lng: 72.8277937},
     zoom: 19,
     pixelRatio: window.devicePixelRatio || 1
   });
