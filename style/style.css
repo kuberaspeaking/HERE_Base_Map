@@ -1,0 +1,23 @@
+body,
+html {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #infoBubble img{
+        width : 100px;
+        height : 100px;
+    }
+
+    #infoBox{
+        width : auto;
+        height : auto;
+    }
+}
