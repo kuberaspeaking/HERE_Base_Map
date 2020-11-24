@@ -24,7 +24,7 @@ var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
 var ui = H.ui.UI.createDefault(map, defaultLayers);
 
 // add a HERE logo as a Marker Icon
-var hereIcon = new H.map.Icon('assets/HERE_Logo.png');
+var hereIcon = new H.map.Icon('assets/img/HERE_Logo.png');
 
 // add center and icon to Marker
 var hereMarker = new H.map.Marker(mapCenter,
